@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|c:\\users\\luisc\\desktop\\universidad-politecnica\\2025\\2do cuatrimestre\\2025.iic.g1.tecnicas de programacion\\proyecto\\proyecto 1\\sistemaacademico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|c:\\users\\luisc\\desktop\\universidad-politecnica\\2025\\2do cuatrimestre\\2025.iic.g1.tecnicas de programacion\\proyecto\\proyecto 1\\sistemaacademico\\modelos\\datosiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|solutionrelative:modelos\\datosiniciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\modelos\\sistemaacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681CC3E5-9F6A-4112-9558-EC1BCE80259B}|SistemaAcademico.csproj|solutionrelative:modelos\\sistemaacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,45 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatosIniciales.cs",
-              "DocumentMoniker": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Modelos\\DatosIniciales.cs",
-              "RelativeDocumentMoniker": "Modelos\\DatosIniciales.cs",
-              "ToolTip": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Modelos\\DatosIniciales.cs",
-              "RelativeToolTip": "Modelos\\DatosIniciales.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAA9wDoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:24:20.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T02:33:47.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SistemaAcademico.cs",
-              "DocumentMoniker": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Modelos\\SistemaAcademico.cs",
-              "RelativeDocumentMoniker": "Modelos\\SistemaAcademico.cs",
-              "ToolTip": "C:\\Users\\luisc\\Desktop\\Universidad-Politecnica\\2025\\2do Cuatrimestre\\2025.IIC.G1.TECNICAS DE PROGRAMACION\\Proyecto\\Proyecto 1\\SistemaAcademico\\Modelos\\SistemaAcademico.cs",
-              "RelativeToolTip": "Modelos\\SistemaAcademico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T06:16:59.216Z",
-              "EditorCaption": ""
             }
           ]
         }

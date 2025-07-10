@@ -29,7 +29,7 @@ namespace SistemaAcademico.Modelos
         private List<ICurso> cursos;
         // APLICACIÓN DE POO: Constructor - Inicializa las listas
         /// <summary>
-        /// Constructor para inicializar las listas del sistema académico.
+        /// Constructor de la clase SistemaAcademico.
         /// </summary>
         public SistemaAcademico()
         {
@@ -40,10 +40,11 @@ namespace SistemaAcademico.Modelos
 
         // APLICACIÓN DE SOLID: OCP - Open/Closed Principle
         // Abierto para extensión mediante interfaces, cerrado para modificación
-        // Métodos para registrar estudiantes, profesores y cursos
         /// <summary>
-        /// Registra un estudiante en el sistema académico.
+        /// Registra un nuevo estudiante en el sistema académico.
+        /// Verifica si el estudiante ya está registrado antes de agregarlo.
         /// </summary>
+        /// <param name="estudiante"></param>
         public void RegistrarEstudiante(IEstudiante estudiante)
         {
             if (estudiante != null && !estudiantes.Any(e => e.NumCedula == estudiante.NumCedula))
@@ -52,8 +53,10 @@ namespace SistemaAcademico.Modelos
             }
         }
         /// <summary>
-        /// Registra un profesor en el sistema académico.
+        /// Registra un nuevo profesor en el sistema académico.
+        /// Verifica si el profesor ya está registrado antes de agregarlo.
         /// </summary>
+        /// <param name="profesor"></param>
         public void RegistrarProfesor(IProfesor profesor)
         {
             if (profesor != null && !profesores.Any(p => p.NumCedula == profesor.NumCedula))
@@ -62,8 +65,10 @@ namespace SistemaAcademico.Modelos
             }
         }
         /// <summary>
-        /// Crea un curso en el sistema académico.
+        /// Crea un nuevo curso en el sistema académico.
+        /// Verifica si el curso ya está registrado antes de agregarlo.
         /// </summary>
+        /// <param name="curso"></param>
         public void CrearCurso(ICurso curso)
         {
             if (curso != null && !cursos.Any(c => c.CodigoCurso == curso.CodigoCurso))
@@ -71,10 +76,11 @@ namespace SistemaAcademico.Modelos
                 cursos.Add(curso);
             }
         }
-        // Métodos para obtener listas de estudiantes, profesores y cursos
         /// <summary>
-        /// Asigna un profesor a un curso en el sistema académico.
+        /// Asigna un profesor a un curso.
         /// </summary>
+        /// <param name="codigoCurso"></param>
+        /// <param name="numCedulaProfesor"></param>
         public void AsignarProfesorACurso(string codigoCurso, string numCedulaProfesor)
         {
             var curso = BuscarCurso(codigoCurso);
@@ -104,14 +110,11 @@ namespace SistemaAcademico.Modelos
         /// Obtiene la lista de cursos en los que está matriculado un estudiante.
         /// </summary>
         /// <param name="numCedulaEstudiante"></param>
-        /// <returns></returns>
         public List<ICurso> ObtenerCursosDeEstudiante(string numCedulaEstudiante)
         {
             // Uso de LINQ para filtrar cursos donde está inscrito el estudiante
-            /// <param name="numCedulaEstudiante"></param>
             return cursos.Where(c => c.EstudiantesInscritos.Any(e => e.NumCedula == numCedulaEstudiante)).ToList();
         }
-
         // Métodos de búsqueda usando LINQ con listas
         /// <summary>
         /// Busca un curso por su código.
@@ -124,6 +127,7 @@ namespace SistemaAcademico.Modelos
         }
         /// <summary>
         /// Busca un estudiante por su número de cédula.
+        /// Verifica si el estudiante existe en la lista de estudiantes.
         /// </summary>
         /// <param name="numCedula"></param>
         /// <returns></returns>
@@ -133,6 +137,7 @@ namespace SistemaAcademico.Modelos
         }
         /// <summary>
         /// Busca un profesor por su número de cédula.
+        /// Verifica si el profesor existe en la lista de profesores.
         /// </summary>
         /// <param name="numCedula"></param>
         /// <returns></returns>
@@ -142,7 +147,7 @@ namespace SistemaAcademico.Modelos
         }
         // Métodos para mostrar información (opciones 7 y 8 del menú)
         /// <summary>
-        /// Muestra los estudiantes inscritos y el profesor asignado a un curso.
+        /// Muestra los estudiantes matriculados en un curso y el profesor asignado.
         /// </summary>
         /// <param name="codigoCurso"></param>
         public void MostrarEstudiantesYProfesorDeCurso(string codigoCurso)
@@ -173,7 +178,7 @@ namespace SistemaAcademico.Modelos
             }
         }
         /// <summary>
-        /// Lista todos los estudiantes registrados en el sistema académico.
+        /// Lista todos los cursos disponibles en el sistema.
         /// </summary>
         public void ListarTodosLosCursos()
         {
