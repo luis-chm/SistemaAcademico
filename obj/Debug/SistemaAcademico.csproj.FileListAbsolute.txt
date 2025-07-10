@@ -1,0 +1,8 @@
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\bin\Debug\SistemaAcademico.exe.config
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\bin\Debug\SistemaAcademico.exe
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\bin\Debug\SistemaAcademico.pdb
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\obj\Debug\SistemaAcademico.csproj.AssemblyReference.cache
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\obj\Debug\SistemaAcademico.csproj.CoreCompileInputs.cache
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\obj\Debug\SistemaAcademico.exe
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\obj\Debug\SistemaAcademico.pdb
+C:\Users\luisc\Desktop\Universidad-Politecnica\2025\2do Cuatrimestre\2025.IIC.G1.TECNICAS DE PROGRAMACION\Proyecto\Proyecto 1\SistemaAcademico\obj\Debug\SistemaAcademico.exe.config
